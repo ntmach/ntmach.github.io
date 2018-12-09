@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+
+	<meta name='author' content='Norman Mach'>
+	<meta name='description' content='University student pursuing a career in programming'>
+
+	<link href='css/style.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+</head>
+<body>
+	<section>
+		<section class='header-section-one-container' id='about-me'>
+			<!-- for the background image -->
+			<section class='background-img'></section>
+			<!-- section 1 about me -->
+			<section class='section-one'>
+				<section class='section-one-container'>
+					<!-- create a folder called media, add my picture jpg/png file into it -->
+					<section class='section-one-container-upper'>
+						<p class='container-picture'>
+							<img class='section-one-container-upper-pic' src='media/picture.jpg'>
+						</p>
+					</section>
+					<section class='nav-container'>
+						<!-- navigation bar -->
+						<nav class='navigation'>
+								<ul class='nav-bar'>
+									<li class='nav-content'><a href='#projects'>Projects</a></li>
+									<li class='nav-content'><a href='#contact-me'>Contact Me</a></li>
+								</ul>
+						</nav>
+					</section>
+				</section>
+			</section>
+			<section class='section-one-right'>
+				<p class='about-me-info-main'>Hello! My name is Norman and I am determined to strengthen my coding skills.</p>
+			</section>
+		</section>
+	</section>
+	<!-- section 2 projects -->
+	<section class='section-two' id='projects'>
+		<h2 class='section-two-title'>Projects</h2>
+
+		<a class='project-link-1' href='https://www.youtube.com/watch?v=nY0dQdIIVDk&feature=youtu.be' target='_blank'></a>
+
+		<section class='section-two-container-left'>
+			<section class='background-img-project1'></section>
+			
+			<p class='project-title'>3D Ocean Simulation</p>
+			<p class='project-description'>Team project at HackTech 2018 (hackathon) to practice Unity3D and C#</p>
+		</section>
+
+		<a class='project-link-2' href='https://ntmach.github.io/MISSA2018CSAF/' target='_blank'></a>
+
+		<section class='section-two-container-middle'>
+			<section class='background-img-project2'></section>
+
+			<p class='project-title'>Cyber Security & Awareness Fair Web Application</p>
+			<p class='project-description'>Web Application to spread awareness of 3rd party access to user information</p>
+		</section>
+
+		<a class='project-link-3' href='https://www.youtube.com/watch?v=C6AvK3cA-GI' target='_blank'></a>
+
+		<section class='section-two-container-right'>
+			<section class='background-img-project3'></section>
+			
+			<p class='project-title'>2D Endless Runner Game</p>
+			<p class='project-description'>Personal project to practice Unity3D and C#</p>
+		</section>
+	</section>
+	<!-- section 3 contact me -->
+	<section class='section-three' id='contact-me'>
+		<h2 class='section-three-title'>Contact Me</h2>
+		<section class='section-three-container-left'>
+			<ul class='section-three-list'>
+	    		<li><a class='link' href='https://www.linkedin.com/in/ntmach/'><i class="fa fa-linkedin-square" style='color: white'></i> LinkedIn</a><li>
+	    		<li><a class='link' href='https://github.com/ntmach'><i class="fa fa-github"></i> Github</a><li>
+	    		<!-- link to resume file within the folder location -->
+	    		<li><a class='link' target='_blank' href='/Resume/resume.pdf'><i class="fa fa-file" style=""></i> Resume</a><li>
+	    	</ul>
+    	</section>
+		<section class='section-three-container-right'>
+			<h4 class='contact-me-title'>Contact Me</h4>
+			<form class="contact-form" action="https://formspree.io/ntmach@cpp.edu"method="POST">
+	                <input class="contact-me-contactName" type="text" name="name" placeholder="Name">
+	                <input class="contact-me-contactEmail" type="email" name="_replyto" placeholder="Your Email Address">
+	                <textarea class="contact-me-contactMessage" type="text" cols="30" rows="6" name="message" placeholder="Message"></textarea>
+	                <input class="contact-me-send" type="submit" value="send message">
+	        </form>
+    	</section>
+	</section>
+</body>
+</html>
